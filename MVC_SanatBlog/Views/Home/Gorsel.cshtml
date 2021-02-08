@@ -1,0 +1,33 @@
+﻿@model MVC_SanatBlog.Models.Gorsel
+@{
+    ViewBag.Title = "Gorsel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">SanatBlog</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Anasayfa</a></li>
+            <li><a href="#">Gorsel</a></li>
+            <li><a href="#">Performans</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">ARA</button>
+        </form>
+    </div>
+</nav>
+
+<div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">ÖRNEK ESER ADI</h5>
+        <p class="card-text">Bir takım önyazılar var burada blablalbaa...</p>
+        <a href="#" class="btn btn-primary">DETAYLI İNCELE</a>
+    </div>
+</div>
